@@ -1,24 +1,36 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Rails app starter template for my own use. It includes:
 
-Things you may want to cover:
+## Rails version
+- Always use the --main branch of Rails. Yes, main.
 
-* Ruby version
 
-* System dependencies
+## The web part:
 
-* Configuration
+### Icons
+Use SVG icons from Google Material Icons. [Material Icons](https://material.io/resources/icons/?style=baseline)
+Having an icons.svg file in the assets/images folder as the single source for icons.
+All icons share a standard CSS class name `icon` and a specific class name for each icon.
+Using icons in ERB with my partial way or my icon_helper way.
 
-* Database creation
+### CSS
+Never use Tailwind or something, just pure vanilla modern CSS3.
 
-* Database initialization
+### JavaScript
+Use StimulusJS for the JavaScript part. [StimulusJS](https://stimulus.hotwire.dev/)
 
-* How to run the test suite
+### HTML
+Just pure HTML5.
 
-* Services (job queues, cache servers, search engines, etc.)
+## Database
+Use SQLite for development and testing AND production.
+Leveraging Litestream for backups and replication. [Litestream](https://litestream.io/)
 
-* Deployment instructions
+## Solid
 
-* ...
+## Test
+Use MiniTest for testing.
+Don't do TDD, but test enough 
+
+
