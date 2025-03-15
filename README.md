@@ -9,7 +9,7 @@ A Rails app starter template for my own use. It includes:
 ## The web part:
 
 ### Icons
-Use SVG icons from Google Material Icons. [Material Icons](https://material.io/resources/icons/?style=baseline)
+Use SVG icons instead of font icons or image icons.
 Having an icons.svg file in the assets/images folder as the single source for icons.
 All icons share a standard CSS class name `icon` and a specific class name for each icon.
 Using icons in ERB with my partial way or my icon_helper way.
@@ -33,4 +33,6 @@ Leveraging Litestream for backups and replication. [Litestream](https://litestre
 Use MiniTest for testing.
 Don't do TDD, but test enough 
 
+## Design
 
+Following IBM Carbon Design System for the design. [Carbon Design System](https://www.carbondesignsystem.com/)
