@@ -1,0 +1,45 @@
+/* IBM Carbon Design System - g10 Theme Tokens (Vanilla CSS) */
+
+:root {
+	/* Backgrounds */
+	--cds-background: #f4f4f4;
+	--cds-layer: #ffffff;
+	--cds-layer-accent: #e0e0e0;
+	--cds-layer-hover: #e8e8e8;
+	--cds-layer-selected: #d0e2ff;
+
+	/* Text */
+	--cds-text-primary: #161616;
+	--cds-text-secondary: #525252;
+	--cds-text-placeholder: #a8a8a8;
+	--cds-text-helper: #6f6f6f;
+	--cds-link-primary: #0f62fe;
+
+	/* Interactive */
+	--cds-interactive-01: #0f62fe;
+	--cds-interactive-02: #393939;
+	--cds-interactive-03: #0f62fe;
+	--cds-hover-primary: #0353e9;
+	--cds-hover-secondary: #4c4c4c;
+
+	/* Borders */
+	--cds-border-subtle: #e0e0e0;
+	--cds-border-strong: #8d8d8d;
+
+	/* Spacing */
+	--cds-spacing-01: 0.125rem;
+	--cds-spacing-02: 0.25rem;
+	--cds-spacing-03: 0.5rem;
+	--cds-spacing-04: 0.75rem;
+	--cds-spacing-05: 1rem;
+	--cds-spacing-06: 1.5rem;
+
+	/* Fonts */
+	--cds-font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+body {
+	background-color: var(--cds-background);
+	color: var(--cds-text-primary);
+	font-family: var(--cds-font-family);
+}

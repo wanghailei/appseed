@@ -7,5 +7,18 @@
  * depending on specificity.
  *
  * Consider organizing styles into separate files for maintainability.
+*/
+/**
+@import "carbon/theme-white.css";
+@import "carbon/theme-grey90.css";
  */
 
+
+body {
+	background-color: var(--cds-background);
+	color: var(--cds-text-primary);
+}
+
+a {
+	color: var(--cds-link-primary);
+}
